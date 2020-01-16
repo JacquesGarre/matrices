@@ -63,7 +63,7 @@ class Matrice(object):
     def isSquaredMatrice(self):
         return True if self.y == self.x else False
 
-    # returns Diagonale
+    # prints Diagonale
     @property
     def diagonale(self):
         if self.isSquaredMatrice:
